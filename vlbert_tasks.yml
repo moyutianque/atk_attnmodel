@@ -72,9 +72,9 @@ TASK4:
   type: V-logit
   loss: BCEWithLogitLoss
   task_id: 11
-  dataroot: data/referExpression
-  features_h5path1: data/referExpression/refcoco+_resnet101_faster_rcnn_genome.lmdb
-  features_h5path2: data/referExpression/refcoco+_gt_resnet101_faster_rcnn_genome.lmdb
+  dataroot: /esat/jade/tmp/zwang/dataset/referExpression
+  features_h5path1: /esat/jade/tmp/zwang/dataset/referExpression/refcoco+_resnet101_faster_rcnn_genome.lmdb
+  features_h5path2: /esat/jade/tmp/zwang/dataset/referExpression/refcoco+_gt_resnet101_faster_rcnn_genome.lmdb
   train_annotations_jsonpath: ''
   val_annotations_jsonpath: ''
   max_seq_length: 20
