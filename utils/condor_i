@@ -1,0 +1,17 @@
+###########################
+# Submit an interactive job
+###########################
+
++RequestWallTime = 7200
+Request_GPUS    = 1
+# Number of CPU (which is the default)
+RequestCpus    = 4
+# RAM (resident memory)
+RequestMemory  =50G
+
+Requirements = ( machineowner == "Visics" ) && ( CUDAGlobalMemoryMb > 10000 )
+
+# If you want X11 forwarding, uncomment this
+#Requirements = ( HasX11 == True )
+
+Queue
